@@ -1,5 +1,6 @@
 <?php
 	include 'config.php';
+    include_once ROOT_PATH . "/views/templates/navbar.php";
 ?>
 
 <STYLE>
