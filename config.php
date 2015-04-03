@@ -14,4 +14,6 @@
 	function __AUTOLOAD($class_name){
     	include_once ROOT_PATH . "/models/" . $class_name . ".php";
     }
+
+    include_once ROOT_PATH . '/views/templates/navbar.php';
 ?>
