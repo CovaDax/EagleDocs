@@ -152,7 +152,7 @@
 		        <textarea class="form-control" rows="1" id="textArea"></textarea>
 		      </div>
 
-		    <label for="textArea" class="col-lg-2 control-label"><B>Total Cost:</B></label>
+		    <label for="textArea" class="col-lg-3 control-label"><B>Total Cost:</B></label>
 		    <div class="col-lg-3">
 		        <textarea class="form-control" rows="1" id="textArea"></textarea>
 		      </div>
