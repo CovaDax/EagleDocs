@@ -61,14 +61,14 @@
       <div class="col-lg-10">
         <div class="radio">
           <label>
-            <input type="radio" name="role" id="optionsRadios1" value="STUDENT" checked="">
-            STUDENT
+            <input type="radio" name="role" id="optionsRadios1" value="DIRECTOR" checked="">
+            Director
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="role" id="optionsRadios2" value="RA">
-            Resident Assistant
+            <input type="radio" name="role" id="optionsRadios2" value="AD">
+            Assisstant Director
           </label>
         </div>
 
@@ -76,6 +76,20 @@
           <label>
             <input type="radio" name="role" id="optionsRadios3" value="RD">
             Resident Director
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="role" id="optionsRadios3" value="RLTAR">
+            Residence Life Team Assistant
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="role" id="optionsRadios3" value="RAW">
+            Resident Assisstant
           </label>
         </div>
       </div>
