@@ -32,7 +32,7 @@
 	      <label for="textArea" class="col-lg-2 control-label"><B>Program Topic:</B></label>
 	      <div class="form-group">
 	      <div class="col-lg-3">
-	        <select class="form-control" id="select">
+	        <select class="form-control" id="select" name="dropdown">
 	          <option>Individual</option>
 	          <option>Collaborative</option>
 	          <option>All-Staff</option>
