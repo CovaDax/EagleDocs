@@ -9,7 +9,7 @@
 		</STYLE>
 	</HEAD>
 	<BODY>
-<form class="form-horizontal">
+<form class="form-horizontal"><form class="form-horizontal" action='../../scripts/programEvaluation.php' method="POST">
   <fieldset>
     <legend>
     	<CENTER>
