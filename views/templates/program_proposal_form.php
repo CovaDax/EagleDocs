@@ -44,12 +44,12 @@
 	    <div class="form-group">
 		    <label for="textArea" class="col-lg-2 control-label"><B>Program Title:</B></label>
 		    <div class="col-lg-3">
-		        <textarea class="form-control" rows="1" id="textArea"></textarea>
+		        <textarea class="form-control" rows="1" id="textArea" name="title"></textarea>
 		    </div>
 
 		    <label for="textArea" class="col-lg-2 control-label"><B>Program Time:</B></label>
 		    <div class="col-lg-3">
-		        <textarea class="form-control" rows="1" id="textArea"></textarea>
+		        <textarea class="form-control" rows="1" id="textArea" name="time"></textarea>
 		      </div>
 		    </div>
 	    </div>
@@ -57,12 +57,12 @@
 	    <div class="form-group">
 		    <label for="textArea" class="col-lg-2 control-label"><B>Program Day/Date:</B></label>
 		    <div class="col-lg-3">
-		        <textarea class="form-control" rows="1" id="textArea"></textarea>
+		        <textarea class="form-control" rows="1" id="textArea" name="date"></textarea>
 		    </div>
 
 		    <label for="textArea" class="col-lg-2 control-label"><B>Program Type:</B></label>
 		    <div class="col-lg-3">
-		      	<select class="form-control" id="select">
+		      	<select class="form-control" id="select" name="type">
 		          <option>FYRE Partner Program</option>
 		          <option>Social</option>
 		          <option>Educational</option>
@@ -77,7 +77,7 @@
 		    	<B><CENTER>Detailed Description of Program (including names of other RAs particupating</CENTER></B>
 		    	<label for="textArea" class="col-lg-2 control-label"></label>
 		    	<div class="col-lg-8">
-			        <textarea class="form-control" rows="10" id="textArea"></textarea>
+			        <textarea class="form-control" rows="10" id="textArea" name="description"></textarea>
 			    </div>
 			</div>
 		</div>
@@ -87,7 +87,7 @@
 		<div class="form-group">
 			<label for="textArea" class="col-lg-2 control-label"><B>Outside Resrouce Used:</B></label>
 			<div class="col-lg-3">
-				<select class="form-control" id="select">
+				<select class="form-control" id="select" name="outsideResources">
 					<option>Yes</option>
 					<option>No</option>
 				</select>
@@ -95,7 +95,7 @@
 
 			<label for="textArea" class="col-lg-2 control-label"><B>If so, Who?:</B></label>
 			<div class="col-lg-3">
-				<select class="form-control" id="select">
+				<select class="form-control" id="select" name="resourceName">
 					<option>Campus Recreation</option>
 					<option>CAPS</option>
 					<option>Career Center</option>
@@ -112,7 +112,7 @@
 		<div class="form-group">
 		    <label for="textArea" class="col-lg-2 control-label">Anticipated Attendence:</label>
 	    	<div class="col-lg-3">
-		        <textarea class="form-control" rows="1" id="textArea"></textarea>
+		        <textarea class="form-control" rows="1" id="textArea" name="anticipatedAttendence"></textarea>
 		    </div>
 		</div>
 	</div>
@@ -133,10 +133,10 @@
 					for($i=0; $i < 4; $i++){
 					?>
 					<TR>
-						<TD><textarea class="form-control" rows="1" id="textArea"></textarea></TD>
-						<TD><textarea class="form-control" rows="1" id="textArea"></textarea></TD>
-						<TD><textarea class="form-control" rows="1" id="textArea"></textarea></TD>
-						<TD><textarea class="form-control" rows="1" id="textArea"></textarea></TD>
+						<TD><textarea class="form-control" rows="1" id="textArea" name="items$i"></textarea></TD>
+						<TD><textarea class="form-control" rows="1" id="textArea" name="quantity$i"></textarea></TD>
+						<TD><textarea class="form-control" rows="1" id="textArea" name="individualCost$i"></textarea></TD>
+						<TD><textarea class="form-control" rows="1" id="textArea" name="totalCost$i"></textarea></TD>
 					</TR>
 					<?php
 					}
@@ -145,7 +145,7 @@
 						<TD></TD>
 						<TD></TD>
 						<TD>Total Cost</TD>
-						<TD><textarea class="form-control" rows="1" id="textArea"></textarea></TD>
+						<TD><textarea class="form-control" rows="1" id="textArea" name="finalTotalCost"></textarea></TD>
 					</TR>
 				</tbody>
 			</TABLE>
@@ -156,18 +156,18 @@
 	    <div class="form-group" style="float:left">
 		    <div class="col-lg-5 col-lg-offset-1">
 		    	<label for="textArea" class="control-label">Purpose of Purchase:</label>
-				<textarea class="form-control" rows="5" id="textArea"></textarea>
+				<textarea class="form-control" rows="5" id="textArea" name="purposePurchase"></textarea>
 		    </div>
 		    <div class="col-lg-5 col-lg-offset-1">
 		    	<label for="textArea" class="control-label">Vendors Used:</label>
-				<textarea class="form-control" rows="5" id="textArea"></textarea>
+				<textarea class="form-control" rows="5" id="textArea" name="vendors"></textarea>
 		    </div>
 	    </div>
 
 	    <div class="form-group">
 		    <div class="col-lg-5 col-lg-offset-1">
 		    	<label for="textArea" class="control-label">Purpose of Purchase:</label>
-		    	<textarea class="form-control" rows="5" id="textArea"></textarea>
+		    	<textarea class="form-control" rows="5" id="textArea" name="purpose"></textarea>
 		    </div>
 	    </div>
     </div>
