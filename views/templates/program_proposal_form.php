@@ -9,14 +9,13 @@
 		</STYLE>
 	</HEAD>
 	<BODY>
-<form class="form-horizontal">
-  <fieldset>
+<form class="form-horizontal" action='../../scripts/programProposal.php' method="POST">  <fieldset>
     <legend>
     	<CENTER>
     		Florida Gulf Cost University<BR>
 			South Village<BR>
 			Office of Housing and Residence Life<BR>
-			Everglades Hall Program Proposal<BR>
+			Program Proposal<BR>
 			</CENTER>
     </legend>
     <div class="form-group">
@@ -32,7 +31,7 @@
 	      <label for="textArea" class="col-lg-2 control-label"><B>Program Topic:</B></label>
 	      <div class="form-group">
 	      <div class="col-lg-3">
-	        <select class="form-control" id="select">
+	        <select class="form-control" id="select" name="topic">
 	          <option>Individual</option>
 	          <option>Collaborative</option>
 	          <option>All-Staff</option>

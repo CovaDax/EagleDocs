@@ -9,14 +9,14 @@
 		</STYLE>
 	</HEAD>
 	<BODY>
-<form class="form-horizontal">
+<form class="form-horizontal" action='../../scripts/programEvaluation.php' method="POST">
   <fieldset>
     <legend>
     	<CENTER>
     		Florida Gulf Cost University<BR>
 			South Village<BR>
 			Office of Housing and Residence Life<BR>
-			Everglades Hall Program Evaluation<BR>
+			Program Evaluation<BR>
 			</CENTER>
     </legend>
     <div class="form-group">
