@@ -9,7 +9,7 @@
 		</STYLE>
 	</HEAD>
 	<BODY>
-<form class="form-horizontal"><form class="form-horizontal" action='../../controllers/programEvaluation.php' method="POST">
+<form class="form-horizontal" action="../../controllers/programEvaluation.php" method="POST">
   <fieldset>
     <legend>
     	<CENTER>
@@ -49,7 +49,8 @@
 
 		    <label for="textArea" class="col-lg-2 control-label"><B>Program Time:</B></label>
 		    <div class="col-lg-3">
-		        <textarea class="form-control" rows="1" id="textArea"></textarea>
+		        <input type="date" class="form-control" id="inputDefault" name="timedate">
+			<input type="time" class="form-control" id="inputDefault" name="datetime">
 		      </div>
 		    </div>
 	    </div>
