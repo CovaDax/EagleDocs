@@ -4,6 +4,7 @@
 		private $user;
 		private $password;
 		private $database;
+		private $connection;
 
 		public function __CONSTRUCT($db){
 			$this->host = $db['host'];
@@ -28,6 +29,10 @@
 			$connection = new mysqli($this->host, $this->user, $this->password, $this->database);
 			$result = $connection->query($sql);
 			return $result;
+		}
+
+		public function getID(){
+			return $this->connection->insert_id();
 		}
 	}
 	

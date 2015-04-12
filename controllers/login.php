@@ -15,6 +15,8 @@
 	   				$_SESSION['firstName']=$row['firstName'];
 	   				$_SESSION['lastName']=$row['lastName'];
 	   				$_SESSION['role']=$row['role'];
+	   				$_SESSION['village']=$row['village'];
+	   				$_SESSION['building']=$row['building'];
 	   			} else {
 	   				die("Incorrect Login");
 	   			}

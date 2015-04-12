@@ -21,21 +21,12 @@
       <ul class="nav navbar-nav nav-tabs">
         <?php
         	echo "<li class='active'><a href='http://" . $root . "/index.php'>Home <span class='sr-only'>(current)</span></a></li>";
-          echo "<li class='dropdown-active'>
-                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Dropdown</a>
-               </li>";
 
 			if($_SESSION['role'] == "DIRECTOR" || $_SESSION['role'] == "AD" || $_SESSION['role'] == "RD" || $_SESSION['role'] == "RLTA" || $_SESSION['role'] == "RA"){
 				echo "<li><a href='http://" . $root . "/views/allusers.php'>Users</a></li>";
-				echo "<li><a href='http://" . $root . "/views/create_user.php'>Create New User</a></li>";
+        echo "<li><a href='http://" . $root . "/views/create_user.php'>Create New User</a></li>";
+        echo "<li><a href='http://" . $root . "/views/create_form.php'>Create Form</a></li>";
 			}
-
-      if($_SESSION['role'] == "ADMIN" || $_SESSION['role'] == "INSTRUCTOR"){
-        if(basename($_SERVER['SCRIPT_FILENAME']) == "course.php"){
-          echo "<li><a href='http://" . $root . "/views/create_assignment.php'>Create Assignment</a></li>";
-        }
-      }
-
 		?>
         </li>
       </ul>

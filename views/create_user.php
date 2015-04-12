@@ -56,42 +56,32 @@
     <!--
       Change radio options to real permission levels
     -->
+    
     <div class="form-group">
-      <label class="col-lg-2 control-label">Radios</label>
-      <div class="col-lg-10">
-        <div class="radio">
-          <label>
-            <input type="radio" name="role" id="optionsRadios1" value="DIRECTOR" checked="">
-            Director
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="role" id="optionsRadios2" value="AD">
-            Assisstant Director
-          </label>
-        </div>
-
-        <div class="radio">
-          <label>
-            <input type="radio" name="role" id="optionsRadios3" value="RD">
-            Resident Director
-          </label>
-        </div>
-
-        <div class="radio">
-          <label>
-            <input type="radio" name="role" id="optionsRadios3" value="RLTAR">
-            Residence Life Team Assistant
-          </label>
-        </div>
-
-        <div class="radio">
-          <label>
-            <input type="radio" name="role" id="optionsRadios3" value="RAW">
-            Resident Assisstant
-          </label>
-        </div>
+      <label class="col-lg-2 control-label">Roles</label>
+      <div class="col-lg-3">
+        <select class="form-control" id="select" name="building">
+            <option value="" name="">Select a Housing Area</option>
+            <option value="glades">The Glades - North Lake Village</option>
+            <option value="groves">The Groves - North Lake Village</option>
+            <option value="gardens">The Gardens - North Lake Village</option>
+            <option value="wlv">West Lake Village</option>
+            <option value="biscayne">Biscayne - South Lake Village</option>
+            <option value="eagle">Eagle - South Lake Village</option>
+            <option value="everglades">Everglades - South Lake Village</option>
+            <option value="osprey">Osprey - South Lake Village</option>
+            <option value="palmetto">Palmetto - South Lake Village</option>
+        </select>
+      </div>
+      <div class="col-lg-3">
+        <select class="form-control" id="select" name="role">
+            <option value="" name="">Select the User's Position</option>
+            <option value="DIRECTOR">Director</option>
+            <option value="AD">Assisstant Director</option>
+            <option value="RD">Resident Director</option>
+            <option value="RLTA">Resident Leader Team Assisstant</option>
+            <option value="RA">Resident Assisstant</option>
+        </select>
       </div>
     </div>
     
