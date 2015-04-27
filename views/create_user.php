@@ -8,7 +8,7 @@
 	echo "</STYLE>";
 ?>
 
-<form class="form-horizontal col-lg-9" action='../controllers/create_user.php' method="POST" style="padding: 1%">
+<form class="form-horizontal col-lg-9" action='../controllers/create_user.php' method="POST" style="padding: 3%">
   <fieldset>
     <legend>Create User</legend>
 
@@ -59,7 +59,7 @@
     
     <div class="form-group">
       <label class="col-lg-2 control-label">Roles</label>
-      <div class="col-lg-3">
+      <div class="col-lg-4">
         <select class="form-control" id="select" name="building">
             <option value="" name="">Select a Housing Area</option>
             <option value="glades">The Glades - North Lake Village</option>
@@ -73,7 +73,7 @@
             <option value="palmetto">Palmetto - South Lake Village</option>
         </select>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-4">
         <select class="form-control" id="select" name="role">
             <option value="" name="">Select the User's Position</option>
             <option value="DIRECTOR">Director</option>

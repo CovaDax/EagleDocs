@@ -39,10 +39,9 @@
 			header("Location:http://" . $root . "/views/create_user.php");
 	}
 
-
 	$uin = $_POST['uin'];
 	$username = $_POST['username'];
-	$password = $_POST['password'];
+	$password = md5($_POST['password']);
 	$firstName = $_POST['firstName'];
 	$lastName = $_POST['lastName'];
 	$email = $_POST['email'];

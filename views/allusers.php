@@ -40,6 +40,7 @@
 							echo "<TD><a href='http://" . $root . "/views/update_user.php?uin=". $row['id'] ."'>" . $row['username'] .  "</a></TD>";
 							echo "<TD>" . $row['firstName'] .  " " . $row['lastName'] . "</TD>";
 							echo "<TD>" . $row['email'] . "</TD>";
+							//echo "<TD><a href='http://" . $root . "/views/email.php?name=" . $row['username'] . "'>" . $row['email'] . "</a></TD>";
 							echo "<TD>" . $row['village'] . " " . $row['building'] . "</TD>";
 							echo "<TD>" . $row['role'] . "</TD>";
 							if($_SESSION['role']=="DIRECTOR" && $row['username']!=$_SESSION['username']){

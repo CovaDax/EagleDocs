@@ -34,7 +34,9 @@
 			?>
 		</TABLE>
 	</div>
-
+<?php 
+	if($_SESSION['role']!="RA"){
+?>
 	<div class="jumbotron" style="padding: 30px; margin: 30px">
 		<TABLE class="table table-striped table-hover" style="margin: 2%; padding: 5%">
 			<CAPTION style="align-center"><H2>To be Processed</H2></CAPTION>
@@ -64,3 +66,6 @@
 		</TABLE>
 	</div>
 </BODY>
+<?php
+	}
+?>
